@@ -4,6 +4,7 @@
    "completions":
    [
       { "trigger": "xh", "contents": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" },
+      { "trigger": "oe", "contents": "<openerp>\n\t<data>\n\t\t$0\n\t</data>\n</openerp>"},
       { "trigger": "df", "contents": "<record model=\"$1\" id=\"$2\">\n\t<field name=\"$3\">$4</field>\n</record>" },
       { "trigger": "mn", "contents": "<record model=\"$1\" id=\"$2\">\n\t<field name=\"name\">$3</field>\n\t<field name=\"res_model\">$4</field>\n\t<field name=\"view_type\">$5</field>\n\t<field name=\"view_mode\">$6</field>\n\t<field name=\"help\" type=\"$7\">$7</field>\n</record>"},
       { "trigger": "mni", "contents": "<menuitem id=\"$1\" name=\"$2\" parent=\"$3\"\n\t\taction=\"$4\"/>"},
