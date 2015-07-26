@@ -1,0 +1,15 @@
+{
+   "scope": "text.xml - variable_other.xml",
+
+   "completions":
+   [
+      { "trigger": "xh", "contents": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" },
+      { "trigger": "df", "contents": "<openerp>\n\t<data>\n\t\t<record model=\"$1\" id=\"$2\">\n\t\t\t<field name=\"$3\">$4</field>\n\t\t</record>\n\t</data>\n</openerp>" },
+      { "trigger": "mn", "contents": "<openerp>\n\t<data>\n\t\t<record model=\"$1\" id=\"$2\">\n\t\t\t<field name=\"name\">$3</field>\n\t\t\t<field name=\"res_model\">$4</field>\n\t\t\t<field name=\"view_mode\">$5</field>\n\t\t</record>\n\t\t<menuitem id=\"$6\" parent=\"$7\" name=\"$8\" sequence=\"$9\"\n\t\t\t\taction=\"$10\"/>\n\t</data>\n</openerp>"},
+      { "trigger": "mni", "contents": "<menuitem id=\"$1\" name=\"$2\" parent=\"$3\"\n\t\taction=\"$4\"/>"},
+      { "trigger": "rc", "contents": "<record model=\"$1\" id=\"$2\">\n\t$3\n</record>"},
+      { "trigger": "fld", "contents": "<field name=\"$1\">$2</field>"},
+      { "trigger": "vw", "contents": "<record model=\"$1\" id=\"$2\">\n\t<field name=\"name\">$3</field>\n\t<field name=\"model\">$4</field>\n\t<field name=\"priority\" eval=\"$5\"/>\n\t<field name=\"arch\" type=\"xml\">\n\t\t$6\n\t</field>\n</record>"}
+
+   ]
+}
